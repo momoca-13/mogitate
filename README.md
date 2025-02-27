@@ -1,8 +1,9 @@
-#　アプリケーション名
+#　アプリケーション名   
+
 mogitate
 
 ## 環境構築
-Dockerビルド  
+*Dockerビルド*  
 
 1.git clone git@github.com:momoca-13/mogitate.git   
 
@@ -10,7 +11,7 @@ Dockerビルド
 
 3.docker-compose up -d --build
 
-Laravel環境構築 
+*Laravel環境構築* 
 
 1.docker-compose exec php bash  
 
@@ -20,16 +21,11 @@ Laravel環境構築
 
 4..envに以下の環境変数を追加
 
-DB_CONNECTION=mysql 
-
+DB_CONNECTION=mysql   
 DB_HOST=mysql   
-
-DB_PORT=3306    
-
-DB_DATABASE=laravel_db  
-
-DB_USERNAME=laravel_user    
-
+DB_PORT=3306      
+DB_DATABASE=laravel_db    
+DB_USERNAME=laravel_user  
 DB_PASSWORD=laravel_pass    
 
 5.アプリケーションキーの作成    
