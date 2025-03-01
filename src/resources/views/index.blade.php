@@ -11,9 +11,9 @@
 <body>
     <header class="header">
         <div class="header__inner">
-            <a class="header__logo" href="/">
+            <div class="header__logo" href="/">
                 mogitate
-            </a>
+            </div>
         </div> 
     </header>    
     
