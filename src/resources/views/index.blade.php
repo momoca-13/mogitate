@@ -1,8 +1,29 @@
-@extends('layouts.app')
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
 
-@section('css')
-<link rel="stylesheet" href="css/reset.css" />
-<link rel="stylesheet" href="{{ asset('css/common.css') }}" />
-@endsection
+<body>
+    <header class="header">
+        <div class="header__inner">
+            <a class="header__logo" href="/">
+                mogitate
+            </a>
+        </div> 
+    </header>    
+    
+    <main>
 
-@section('content')
+    </main>
+
+    <footer>
+
+
+    </footer>
+</body>
+</html>
