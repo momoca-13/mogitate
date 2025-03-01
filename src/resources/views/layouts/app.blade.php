@@ -8,9 +8,14 @@
     <link rel="stylesheet" href="{{ asset('css/common.css') }}" />
     @yield('css')
 </head>
+
 <body>
-    <header>
-        <h1>mogitate</h1>
+    <header class="header">
+        <div class="header__inner">
+            <a class="header__logo" href="/">
+                mogitate
+            </a>
+        </div> 
     </header>    
     
     <main>
