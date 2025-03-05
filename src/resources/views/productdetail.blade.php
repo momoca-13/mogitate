@@ -1,5 +1,19 @@
-@extends('layouts.app')
+<!DOCTYPE html>
+<html lang="ja">
 
-@section('css')
-<link rel="stylesheet" href="{{ asset('css/productdetail.css') }}">
-@endsection
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>mogitate</title>
+  <link rel="stylesheet" href="{{ asset('css/reset.css') }}" />
+  <link rel="stylesheet" href="{{ asset('css/product.css') }}" />
+  <link rel="stylesheet" href="{{ asset('css/common.css') }}" />
+
+<body>
+  <header class="header">
+    <div class="header__inner">
+      <a class="header__logo" href="/">mogitate</a>
+      </a>      
+    </div>
+  </header>
