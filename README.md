@@ -32,7 +32,7 @@ php artisan migrate
 7.シーディングの実行  
 php artisan db:seed  
 
-8.シンボリックリンク作成
+8.シンボリックリンク作成  
 php artisan storage:link
 
 ## 使用技術（実行環境）
